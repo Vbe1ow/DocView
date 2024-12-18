@@ -10,9 +10,10 @@ module com.documentviewer.documentviewer {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
-    requires org.apache.tika.parsers;
-    requires org.apache.tika.core;
     requires com.google.common;
+    requires org.apache.tika.core;
+
+
 
 
     opens com.documentviewer.documentviewer to javafx.fxml;
